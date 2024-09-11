@@ -16,7 +16,7 @@ spec:
       app: frontend
    spec:
     containers:
-    - image: 10.138.0.3:5001/mgsgoms/flask:${BUILD_NUMBER}
+    - image: arun8123456/goms:${BUILD_NUMBER}
       name: frontend
 
 ---
