@@ -16,7 +16,7 @@ spec:
       app: frontend
    spec:
     containers:
-    - image: arun8123456/goms:${BUILD_NUMBER}
+    - image: arun8123456/dockerproject:latest
       name: frontend
 
 ---
